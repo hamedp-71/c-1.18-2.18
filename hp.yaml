@@ -138,10 +138,10 @@ proxies:
   - name: "🇩🇪 Warp - IPv4-2"
     type: wireguard
     ip: 172.16.0.2/32
-    ipv6: 2001:db8:1::1
+    ipv6: 2001:db8:1::1/128
     private-key: "U6ON8cy8qUknlIT2DGUXUlS0BnO9FhEl+UY7AfMlJ5I="
-    server: 188.114.99.150
-    port: 8866
+    server: 188.114.97.229
+    port: 1843
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     allowed-ips: ["0.0.0.0/0", "::/0"]
     reserved: "AAAA"
